@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yummy yummy foods</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section style="height: 120px;" class="d-flex justify-content-center align-items-center">
+            <div>
+                <input id="serch-field" type="text" class="px-2" placeholder="search">
+                <button onclick="searchMeals()" class="btn btn-primary">Search</button>
+            </div>
+            
+        </section>
+
+
+       
+
+
+        <section>
+            <div id="meals-container" class="row row-cols-1 row-cols-md-3 g-4">
+                
+              
+                
+             </div>
+
+        </section>
+
+     <!-- Modal -->
+<div class="modal fade" id="mealDetails" tabindex="-1" aria-labelledby="mealDetails" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="mealDetailsTitle">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div id="mealDetailsBody" class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="js/meal.js"></script>
+</body>
+</html>
